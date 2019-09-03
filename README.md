@@ -1,2 +1,2 @@
 # amlscreening
-AML sanction screen web application
+AML sanction screening web application
