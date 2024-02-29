@@ -1,0 +1,6 @@
+resource "file-content" "c92539a5-fed2-4d83-a065-c0d4c704287f" {
+  uuid = "c92539a5-fed2-4d83-a065-c0d4c704287f"
+  content = "echo \"chained result example\""
+  dateCreated = "2024-02-29T13:00:54.000Z"
+  lastUpdated = "2024-02-29T13:00:54.000Z"
+}

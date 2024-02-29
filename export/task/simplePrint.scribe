@@ -1,0 +1,17 @@
+resource "task" "simplePrint" {
+  code = "simplePrint"
+  name = "Simple print"
+  uuid = "8e0e3739-547d-4b3f-b2f6-cbaf74e6abb1"
+  dateCreated = "2024-02-29T13:00:54.000Z"
+  executeTarget = "local"
+  lastUpdated = "2024-02-29T13:00:54.000Z"
+  options = [
+    {
+      content = { uuid = "c92539a5-fed2-4d83-a065-c0d4c704287f" }
+      optionType = { code = "script" }
+    },
+    { optionType = { code = "shell.sudo" }, value = "on" }
+  ]
+  resultType = "value"
+  taskType = { code = "script" }
+}
